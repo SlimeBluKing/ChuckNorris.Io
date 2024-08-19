@@ -23,7 +23,7 @@ public class ChuckNorrisJoke
     /// Gets the URL of the icon associated with the joke.
     /// </summary>
     [JsonProperty("icon_url")]
-    public string IconUrl { get; init; } = string.Empty;
+    public string IconUrl { get; init; } = string.Empty; // Useless, because the IconUrl is always 'https://api.chucknorris.io/img/avatar/chuck-norris.png'
 
     /// <summary>
     /// Gets the unique identifier of the joke.
